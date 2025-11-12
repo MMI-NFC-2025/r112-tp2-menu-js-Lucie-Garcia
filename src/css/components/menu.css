@@ -5,11 +5,11 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   position: fixed; /* Fixe le menu en position, il ne défilera pas avec la page : https://developer.mozilla.org/fr/docs/Web/CSS/position#fixed */
   background-color: white; /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
   display: flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
-  top: auto; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
-  bottom: 100%;; /* Étend le menu jusqu'en bas de la page */
-  left: auto; /* Positionne le menu à gauche de la page */
-  right: 100%; /* Étend le menu jusqu'à droite de la page */
-  transition: all 0.4s ease-in-out 0.1s; /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
+  top: 0; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
+  height: 100%; /* Étend le menu jusqu'en bas de la page */
+  left: 0; /* Positionne le menu à gauche de la page */
+  width: 100%; /* Étend le menu jusqu'à droite de la page */
+  transition: all 0.4s ease-in-out; /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
   opacity: 0; /* Rend le menu complètement transparent : https://developer.mozilla.org/fr/docs/Web/CSS/opacity */
   visibility:hidden; /* Cache le menu en le rendant invisible : https://developer.mozilla.org/fr/docs/Web/CSS/visibility#hidden  */
 }
