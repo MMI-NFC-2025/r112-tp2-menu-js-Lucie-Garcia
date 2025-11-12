@@ -1,11 +1,11 @@
 
-// On cible les éléments à modifier
+const nav = document.querySelector("nav.menu");
 const toggle = document.querySelector(".menu-btn");
-const nav = document.querySelector(".menu");
-
-// Ajoute un écouteur d'événements à l'élément 'toggle' qui écoute les événements 'click'.
 toggle.addEventListener("click", () => {
+  const isOpen = toggle.ariaExpanded === "true";
+  const isClosed = !isOpen;
   // Mise à jour des attributs ARIA pour accessibilité
-  //nav.
-  //toggle.
-});
+  nav.ariahidden = isOpen ? "true" : "false";
+  toggle.ariaexpanded = isOpen ? "false" : "true";
+  document.body.classList.toggle("noscroll", !isOpen);
+})
