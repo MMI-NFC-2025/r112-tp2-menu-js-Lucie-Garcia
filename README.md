@@ -58,7 +58,7 @@ Les `____` sont à remplacer par les termes corrects.
 Trouvez l'élément `nav` de classe CSS `menu` :
 
 ```js
-nav = document.querySelector("______");
+nav = document.querySelector(".menu");
 ```
 
 Doit afficher dans la console :
