@@ -6,6 +6,6 @@ const nav = document.querySelector(".menu");
 // Ajoute un écouteur d'événements à l'élément 'toggle' qui écoute les événements 'click'.
 toggle.addEventListener("click", () => {
   // Mise à jour des attributs ARIA pour accessibilité
-  nav.setAttribute("aria-hidden"= "false");
-  toggle.setAttribute("aria-expanded" = "false");
+  //nav.
+  //toggle.
 });
