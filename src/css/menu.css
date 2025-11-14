@@ -71,3 +71,16 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   border: #000000 1px solid;
 
 }
+
+.back__btn {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border: #000000 1px solid;
+  width: fit-content;
+}
