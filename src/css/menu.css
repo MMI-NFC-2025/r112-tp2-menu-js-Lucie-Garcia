@@ -60,3 +60,14 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu__list li {
   position: relative;
   padding-left: 50px; }
+
+.menu__link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+  padding: 15px 15px;
+  border: #000000 1px solid;
+
+}
