@@ -53,3 +53,10 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu-btn[aria-expanded="true"] .menu-btn__icon-open {
   display: none;
 }
+.menu__list {
+  list-style: none;
+  padding-left: 0;
+}
+.menu__list li {
+  position: relative;
+  padding-left: 50px; }
